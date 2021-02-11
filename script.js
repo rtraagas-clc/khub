@@ -221,3 +221,14 @@ previousButton.addEventListener('click', showPreviousSlide);
 nextButton.addEventListener('click', showNextSlide);
 nextButton.addEventListener('click', progressAdd);
 //document.getElementById('quiz-progress-bar-inner').style.width = (;
+
+
+//Todo List
+
+console.clear();
+
+setTimeout(function(){
+  document.querySelector('input[type="checkbox"]').setAttribute('checked',true);
+},100);
+
+//Chart
